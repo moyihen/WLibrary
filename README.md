@@ -10,15 +10,15 @@
 		}
 	}
 	```
-    或者settings.gradle(gradle>=7.0)配置
-    <span style="color:#333333">```
+或者settings.gradle(gradle>=7.0)配置
+    ```
     dependencyResolutionManagement {
         repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
         repositories {
             ...
             maven { url 'https://jitpack.io' }
         }
-    }```</span>
+    }```
     
 
 ##### Step 2. Add the dependency
